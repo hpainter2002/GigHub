@@ -8,7 +8,7 @@ namespace GigHub15.ViewModels
         public string Venue { get; set; }
         public string Date { set; get; }
         public string Time { get; set; }
-        public int Genre { get; set; }
+        public byte Genre { get; set; }
         public IEnumerable<Genre> Genres { get; set; }
     }
 }
